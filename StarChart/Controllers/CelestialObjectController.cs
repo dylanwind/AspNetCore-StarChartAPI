@@ -55,7 +55,7 @@ namespace StarChart.Controllers
             }
             
 
-            return Ok(celestialObjs.Select(r => r.Name));
+            return Ok(celestialObjs);
         }
 
         [HttpGet]
